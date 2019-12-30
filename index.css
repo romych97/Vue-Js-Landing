@@ -1,0 +1,47 @@
+html, body {
+    height: 100%;
+    position: relative;
+}
+
+#app {
+    background-color: #e2edf9;
+    overflow: auto;
+    height: 100%;
+}
+
+/* Hack centered div {  
+  position: absolute;
+  left: 50%;
+  top: 50%;
+   transform: translate(-50%, -50%);
+   }
+*/
+
+.row.face.background {
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+li.list-group-item.d-flex.justify-content-between.lh-condensed.border-0 {
+    margin: 5px;
+    background-color: #b7d1ed;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background-color: #b7d1ed!important;
+    border-bottom: 1px solid #a6bbd2;
+}
+
+.col-12.col-sm-6.col-md-8 {
+    border-radius: 5px;
+    padding: 20px 20px;
+    border-right: 5px solid #e2edf9;
+    background-color: #d5e6f8;
+}
+
+.col-6.col-md-4 {
+    border-radius: 5px;
+    padding: 20px 10px;
+    background-color: #d5e6f8;
+}
